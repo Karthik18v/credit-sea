@@ -1,0 +1,60 @@
+.verifierDashboard-container {
+    display: flex;
+}
+
+.main-container {
+    padding: 30px;
+    color: #0A512F;
+}
+
+.verifier1 {
+    height: 23px;
+    width: 23px;
+}
+
+.verifier-loan-details {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    padding: 20px;
+}
+
+.verifier-loan-details-item {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.image-container {
+    background-color: #0A512F;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 70px;
+}
+
+.text-content {
+    background-color: white;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+}
+
+.count {
+    font-weight: 700;
+    height: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.text-content-user {
+    font-size: 12px;
+    margin-left: 20px;
+
+}

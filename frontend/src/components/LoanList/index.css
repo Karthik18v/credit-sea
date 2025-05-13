@@ -1,0 +1,98 @@
+
+.loan-list-container {
+    margin-left: 10px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+.loan-list-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.loan-list-button {
+    padding: 10px;
+    border: 0px;
+    background-color: transparent;
+}
+
+.loan-details-heading {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.loan-officer {
+    width: 30%;
+
+}
+
+.loan-amount,
+.loan-date,
+.loan-status {
+    width: 20%;
+}
+
+.loan-officer-image {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.loan-officer-details {
+    width: 30%;
+    display: flex;
+    align-items: center;
+
+}
+
+.loan-officer-update-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.loan-officer-name {
+    font-size: 14px;
+}
+
+.loan-update-time {
+    font-size: 12px;
+    color: #C5C7CD;
+}
+
+.loan-amount-details {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.loan-price,
+.loan-applied-date {
+    font-size: 14px;
+    height: 20px;
+    margin: 0px;
+}
+
+.loan-price-status,
+.loan-time {
+    font-size: 12px;
+    color: #C5C7CD;
+    margin: 0px;
+}
+
+.loan-status-details {
+    padding: 10px 20px;
+    background-color: forestgreen;
+    width: 78px;
+    height: 24px;
+    border-radius: 25px;
+    margin-right: 20px;
+}

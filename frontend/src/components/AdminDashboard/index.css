@@ -1,0 +1,14 @@
+.admin-dashboard-container {
+    display: flex;
+}
+
+.admin-loan-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 20px;
+}
+
+.admin-loan-details-item {
+    display: flex;
+}
